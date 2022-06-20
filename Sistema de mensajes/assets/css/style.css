@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --platinum: #E8EBE4;
+    --blue-bell: #A491D2;
+    --white: #fff;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    font-family: "Roboto","Open Sans Regular";
+}
+
+.chat-section{
+    background-color: var(--white);
+    width: 25%;
+}
+
+.box-chat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border: 1px solid var(--platinum);
+}
+
+.perfil-thumbnail{
+    width: 20%;
+    height: 50%;
+    margin: auto;
+}
+
+.perfil-thumbnail img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.chat-text-thumbnail{
+    width: 50%;
+}
+
+.chat-icon{
+    width: 20%;
+}
+
+.box-btn{
+    display: flex;
+    width: 100%;
+    height: 150px;  
+    border: 1px solid var(--platinum);
+}
+
+.box-btn button{
+    border: none;   
+    padding: 5% 20%;
+    background-color: var(--blue-bell);
+    margin: auto;
+}
+
+.box-chat .perfil{
+    width: 20%;
+    height: 70%;
+    margin: auto;
+}
+
+.box-chat .perfil img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.chat-text{
+    width: 65%;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;   
+    justify-content: center;
+}
+
+.main-section .logo{
+    width: 30%;
+    height: 30%;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-text{
+    justify-content: center;
+    text-align: center;
+}
+
+.main-text h2{
+    font-size: 45px;
+}
+
+.main-text p{
+    font-size: 16px;
+}
